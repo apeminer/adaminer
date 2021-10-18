@@ -611,7 +611,7 @@ var tokenContract;
 var canSell = true;
 var canHatch = true;
 
-function approveBUSD(trx) {
+function approveADA(trx) {
 	  tokenContract.methods.approve(minersAddr, trx).send({ from: currentAddr });
 }
 
